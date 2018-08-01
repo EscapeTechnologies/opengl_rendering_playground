@@ -87,5 +87,6 @@ int main(int argc, char** argv)
     }
 
     jr.staticRun();
+    glXSwapBuffers(dsp, win);
   }
 }

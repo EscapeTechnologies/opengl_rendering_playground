@@ -9,7 +9,6 @@
 #include <GL/gl.h>
 #include <GL/glx.h>
 #include <GL/glu.h>
-#include <JarvisRenderer.h>
 #include <thread>
 #include <chrono>
 
@@ -75,22 +74,21 @@ int main(int argc, char** argv)
   // Setup Graphics Context Size
   glViewport(0, 0, gwa.width, gwa.height);
 
-  JarvisRenderer jr;
+  // Static Draw Object
+
+  glXSwapBuffers(dsp, win);
   
   // Wait for Exit command
   while(1) {
     XNextEvent(dsp, &loopXev); 
     if (loopXev.type == KeyPress) {
       // Destroy All Assets
-      jr.close();
       glXMakeCurrent(dsp, None, NULL);
       glXDestroyContext(dsp, glc);
       XDestroyWindow(dsp, win);
       XCloseDisplay(dsp);
       return 0;
     }
-
-    jr.staticRun();
   }
 }
 
