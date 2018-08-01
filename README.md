@@ -1,2 +1,2 @@
 # opengl_rendering_playground
-A playground for ogre3D integrated rendering software in xlib full screen
+A playground to experiment with the JarvisRenderer/JarvisApplication pipeline before integrating it into a kernel
