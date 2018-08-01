@@ -1,0 +1,17 @@
+// Created By: Vineeth Yeevani
+// Date: July 31, 2018
+// Description: Rendering Engine
+
+#include <iostream>
+#include "JarvisRenderer.h"
+
+JarvisRenderer::JarvisRenderer()
+{
+  std::cout << "Jarvis Renderer: Starting" << std::endl;
+  std::cout << "Jarvis Renderer: Started" << std::endl;
+}
+
+void JarvisRenderer::run()
+{
+  std::cout << "Jarvis Renderer: Running" << std::endl;
+}

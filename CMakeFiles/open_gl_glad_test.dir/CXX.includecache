@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vyeevani/Desktop/opengl_playground/src/JarvisRenderer.cpp
+iostream
+-
+JarvisRenderer.h
+/home/vyeevani/Desktop/opengl_playground/src/JarvisRenderer.h
+
+/home/vyeevani/Desktop/opengl_playground/src/main.cpp
+X11/X.h
+-
+X11/Xlib.h
+-
+iostream
+-
+GL/glew.h
+-
+GL/gl.h
+-
+GL/glx.h
+-
+GL/glu.h
+-
+JarvisRenderer.h
+-
+thread
+-
+chrono
+-
+
+include/JarvisRenderer.h
+GL/glew.h
+-
+GL/glx.h
+-
+GL/glu.h
+-
+
