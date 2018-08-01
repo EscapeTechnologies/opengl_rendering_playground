@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/open_gl_glad_test.dir/src/main.cpp.o CMakeFiles/open_gl_glad_test.dir/src/JarvisRenderer.cpp.o CMakeFiles/open_gl_glad_test.dir/src/JarvisShader.cpp.o  -o open_gl_glad_test /usr/lib/i386-linux-gnu/libGLU.so /usr/lib/i386-linux-gnu/libGL.so /usr/lib/i386-linux-gnu/libX11.so /usr/lib/i386-linux-gnu/libXext.so /usr/lib/i386-linux-gnu/libGLEW.so 
